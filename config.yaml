@@ -1,0 +1,6 @@
+kinesis:
+  source_stream_name: "nullify-source-stream"
+  enriched_stream_name: "nullify-enriched-stream"
+
+sns:
+  topic_name: "nullify-threat-intel"
