@@ -1,4 +1,4 @@
-## Nullify Security Pipeline
+## Security Pipeline
 
 This project is a security pipeline that ingests data from a Kinesis stream, enriches the data with geo-ip information, and then sends it to a backend for analysis.
 
@@ -12,7 +12,7 @@ This project is a security pipeline that ingests data from a Kinesis stream, enr
 - base64
 - dotenv
 - urllib3
-- requests_aws4auth
+- opensearch-py
 
 ### Components
 
@@ -68,4 +68,4 @@ The `config.yaml` file contains the configuration for the Kinesis streams and SN
 ### Problems encountered
 * Didn't deploy lambda.
 * Lambda dependancy management. 
-* Opensearch permissions issue.
+* Opensearch serverless permissions issue.
